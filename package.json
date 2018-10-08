@@ -19,5 +19,17 @@
     "@types/underscore": "^1.8.8",
     "nodemon": "^1.17.4",
     "webpack": "^3.10.0"
-  }
+  },
+  "description": "",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgokcek/KMTS_Server.git"
+  },
+  "author": "tgokcek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgokcek/KMTS_Server/issues"
+  },
+  "homepage": "https://github.com/tgokcek/KMTS_Server#readme"
 }
