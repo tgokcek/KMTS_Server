@@ -25,7 +25,7 @@ var wlanFingerprintScheme = new Scheme({
     date: {type: Date, default: Date.now},
     wlanMeasurement:  [{type: wlanMeasurementScheme}]
 
-},{ collection: 'WLANTrainingData'});
+},{ collection: 'WLANTrainingData', autoCreate:true});
 
 //const wlanFingerprint = mongoose.model('wlanFingerprint', wlanFingerprintScheme);
 
