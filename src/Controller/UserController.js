@@ -17,9 +17,13 @@ router.post('/register', function (req, res) {
         expiresIn: 86400 // expires in 24 hours
       });
     var iAdr = getCallerIP(req);
+    
+    if(iAdr == undefined)
+      iAdr = "Test";
+
     User.create({
             deviceId : req.body.deviceId,
-            ipAdress : req.body.ipAdress,
+            ipAdress : iAdr,
             token : req.body.token,
             date : req.body.date
         }, 
