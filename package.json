@@ -2,7 +2,7 @@
   "name": "ipsserver",
   "version": "1.0.0",
   "scripts": {
-    "start": "nodemon ./src/server.js",
+    "start": "node ./src/server.js",
     "debug": "nodemon --inspect ./src/server.js"
   },
   "dependencies": {
